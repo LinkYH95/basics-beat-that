@@ -50,22 +50,23 @@
       }
 
       #flex-item-one {
-        flex: 1;
+        /* flex: 1; */
         white-space: pre-wrap;
         padding: 20px;
-        margin: 0px;
         background-color: rgb(241, 241, 247);
         border-radius: 10px;
+        max-width: 800px;
+        margin: 20px auto 0px;
       }
 
-      #flex-item-two {
+      /* #flex-item-two {
         flex: 1;
         white-space: pre-wrap;
         padding: 20px;
         margin: 0px;
         background-color: rgb(241, 241, 247);
         border-radius: 10px;
-      }
+      } */
 
       #para {
         margin: 5px 0px;
@@ -93,13 +94,13 @@
         border-radius: 10px;
       }
 
-      #flex-row {
+      /* #flex-row {
         display: flex;
         flex-direction: row;
         max-width: 800px;
         margin: 20px auto 0px;
         gap: 10px;
-      }
+      } */
 
       #output-div {
         background-color: lightgrey;
@@ -121,10 +122,10 @@
       <p id="para">Tip: Type "help" for more info</p>
     </div>
     <div id="leader-board"></div>
-    <div id="flex-row">
-      <p id="flex-item-one"></p>
-      <p id="flex-item-two"></p>
-    </div>
+    <p id="flex-item-one"></p>
+    <!-- <div id="flex-row"> -->
+      <!-- <p id="flex-item-two"></p> -->
+    <!-- </div> -->
     <div id="container">
       <p id="myCustomText"></p>
       <p>Input:</p>
